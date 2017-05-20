@@ -350,6 +350,8 @@ typedef enum uc_arm64_reg {
 
     UC_ARM64_REG_CP_REG,
 
+    UC_ARM64_REG_ESR,			// exception syndrome register
+
     UC_ARM64_REG_ENDING, // <-- mark the end of the list of registers
 
     //> alias registers

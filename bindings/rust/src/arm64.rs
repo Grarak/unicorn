@@ -304,7 +304,8 @@ pub enum RegisterARM64 {
     VBAR_EL2 = 288,
     VBAR_EL3 = 289,
     CP_REG = 290,
-    ENDING = 291,
+    ESR_REG = 291,
+    ENDING = 292,
 }
 
 impl RegisterARM64 {
